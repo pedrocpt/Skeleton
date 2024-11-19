@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exemplo Completo com Skeleton CSS</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Minha Página com Skeleton CSS</h1>
+      <p>Framework CSS leve para layouts rápidos e responsivos.</p>
+    </header>
+
+    <div class="row">
+      <div class="one-half column">
+        <h2>Sobre Nós</h2>
+        <p>Esta seção descreve um pouco sobre nós. Skeleton facilita a criação de layouts simples e responsivos.</p>
+      </div>
+      <div class="one-half column">
+        <h2>Serviços</h2>
+        <p>Nossos serviços incluem design web, desenvolvimento de software e consultoria técnica.</p>
+      </div>
+    </div>
+
+    <section>
+      <h3>Entre em Contato</h3>
+      <form>
+        <label for="name">Nome</label>
+        <input class="u-full-width" type="text" placeholder="Seu Nome" id="name">
+        
+        <label for="email">Email</label>
+        <input class="u-full-width" type="email" placeholder="seuemail@exemplo.com" id="email">
+        
+        <label for="message">Mensagem</label>
+        <textarea class="u-full-width" placeholder="Escreva sua mensagem" id="message"></textarea>
+        
+        <input class="button-primary" type="submit" value="Enviar">
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 - Skeleton CSS Exemplo. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<div class="container">
+  <h3>Formulário de Contato</h3>
+  <form>
+    <label for="name">Nome</label>
+    <input class="u-full-width" type="text" placeholder="Seu Nome" id="name">
+
+    <label for="email">Email</label>
+    <input class="u-full-width" type="email" placeholder="seuemail@exemplo.com" id="email">
+
+    <label for="message">Mensagem</label>
+    <textarea class="u-full-width" placeholder="Escreva sua mensagem" id="message"></textarea>
+
+    <input class="button-primary" type="submit" value="Enviar">
+  </form>
+</div>
